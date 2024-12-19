@@ -7,6 +7,10 @@ button{
     width: 30px;
 }
 
+#splitter{
+    
+}
+
 #knop1{
     color:red;
     background-color: red;
@@ -60,5 +64,6 @@ button{
     padding: 30px;
     background-color: lightgray;
     border-radius: 35px;
-    c
+    text-align: center;
+
 }
