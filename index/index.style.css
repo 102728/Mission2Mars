@@ -7,8 +7,41 @@ button{
     width: 30px;
 }
 
+#boxrow1{
+    display: flex;
+    justify-content: center;
+}
+#boxrow1 > button{
+    margin: 10px;
+}
+#boxrow1 > label{
+    margin: 10px;
+}
+
+#boxrow2{
+    display: flex;
+    justify-content: center;
+}
+#boxrow2 > button{
+    margin: 22px;
+}
+#boxrow2 > label{
+    margin: 22px;
+}
+
+#boxrow3{
+    display: flex;
+    justify-content: center;
+}
+#boxrow3 > button{
+    margin: 10px;
+}
+#boxrow3 > label{
+    margin: 10px;
+}
+
 #splitter{
-    
+    flex-grow: 8;
 }
 
 #knop1{
