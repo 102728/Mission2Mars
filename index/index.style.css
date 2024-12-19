@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+}
+
+button{
+    height: 30px;
+    width: 30px;
+}
+
+#knop1{
+    color:red;
+    background-color: red;
+}
+#knop2{
+    color: orange;
+    background-color: orange;
+}
+#knop3{
+    color: darkmagenta;
+    background-color: darkmagenta;
+}
+#knop4{
+    color: palevioletred;
+    background-color: palevioletred;
+}
+#knop5{
+    color:green;
+    background-color:green;
+}
+#knop6{
+    color:aqua;
+    background-color: aqua;
+}
+#knop7{
+    color: blue;
+    background-color: blue;
+}
+#knop8{
+    color: yellow;
+    background-color: yellow;
+}
+#knop9{
+    color: yellowgreen;
+    background-color: yellowgreen;
+}
+#knop10{
+    color:magenta;
+    background-color: magenta
+}
+#knop11{
+    color: red;
+    background-color: red;
+}
+
+#menu{
+    margin: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    padding: 30px;
+    background-color: lightgray;
+    border-radius: 35px;
+    c
+}
