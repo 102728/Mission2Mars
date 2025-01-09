@@ -1,96 +1,7 @@
-h1{
-    text-align: center;
-}
 
-button{
-    height: 30px;
-    width: 30px;
-}
-
-#boxrow1{
-    display: flex;
-    justify-content: center;
-}
-#boxrow1 > button{
-    margin: 10px;
-}
-#boxrow1 > label{
-    margin: 10px;
-}
-
-#boxrow2{
-    display: flex;
-    justify-content: center;
-}
-#boxrow2 > button{
-    margin: 22px;
-}
-#boxrow2 > label{
-    margin: 22px;
-}
-
-#boxrow3{
-    display: flex;
-    justify-content: center;
-}
-#boxrow3 > button{
-    margin: 10px;
-}
-#boxrow3 > label{
-    margin: 10px;
-}
-
-#splitter{
-    flex-grow: 8;
-}
-
-#knop1{
-    color:red;
-    background-color: red;
-}
-#knop2{
-    color: orange;
-    background-color: orange;
-}
-#knop3{
-    color: darkmagenta;
-    background-color: darkmagenta;
-}
-#knop4{
-    color: palevioletred;
-    background-color: palevioletred;
-}
-#knop5{
-    color:green;
-    background-color:green;
-}
-#knop6{
-    color:aqua;
-    background-color: aqua;
-}
-#knop7{
-    color: blue;
-    background-color: blue;
-}
-#knop8{
-    color: yellow;
-    background-color: yellow;
-}
-#knop9{
-    color: yellowgreen;
-    background-color: yellowgreen;
-}
-#knop10{
-    color:magenta;
-    background-color: magenta
-}
-#knop11{
-    color: red;
-    background-color: red;
-}
 
 #menu{
-    margin: 30px;
+    position: relative;
     border-style: solid;
     border-color: black;
     border-width: 5px;
@@ -98,5 +9,78 @@ button{
     background-color: lightgray;
     border-radius: 35px;
     text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+/* h1{
+    text-align: center;
+} */
+ #box1, #box3{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    width: 500px;
+    border: 1px solid black;
+ }
+
+.box{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    font-weight:bold;
+    border: 2px solid black;
+}
+a{
+    text-decoration: none;
 
 }
+#b1{
+
+    background-color: red;
+}
+#b2{
+    color: orange;
+    background-color: orange;
+}
+#b3{
+
+    background-color: darkmagenta;
+}
+#b4{
+    color: palevioletred;
+    background-color: palevioletred;
+}
+#b5{
+    color:green;
+    background-color:green;
+}
+#b6{
+    color:aqua;
+    background-color: aqua;
+}
+#b7{
+    color: blue;
+    background-color: blue;
+}
+#b8{
+
+    color: yellow;
+    background-color: yellow;
+}
+#b9{
+
+    color: yellowgreen;
+    background-color: yellowgreen;
+}
+#b10{
+    color:magenta;
+    background-color: magenta
+}
+#b11{
+    color: red;
+    background-color: red;
+}
+
+
