@@ -1,14 +1,38 @@
-.header
+body 
 {
-    width: 400px;
-    height: 100px;
+    background-image: url(/Info_schip/img/fred-augis-cosmic-eye-01.jpg);
+    background-attachment: fixed;object-fit: fill;
+}
+
+.header 
+{
+    width: 1150px;
+    height: 60px;
     background-color: black;
     text-align: center;
     position: relative;
     margin: 0 auto;
     color: white;
+    margin-bottom: 50px;
+
 .h1
 {
-text-align: center;
+    text-align: center;
 }
+}
+
+.img
+{
+    text-align: center;
+}
+.container
+{
+    width: 1150px;
+    background-color: black;
+    text-align: center;
+    margin: 0 auto;
+    border: 6px;
+    border-color: rgb(255, 234, 131);
+    border-style: solid;
+    color: aliceblue;
 }
