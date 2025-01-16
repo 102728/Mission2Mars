@@ -3,7 +3,7 @@ html, body {
 }
   
 body {
-    background-image: url('../afbeeldingen-voor-paginas/muziek/achtergrond2.jpg');
+    background-image: url('./media/achtergrond2.jpg');
     background-size: cover; /* Ensure the image covers the entire screen */
     background-position: center center; /* Center the image */
     background-attachment: fixed; /* Optional: Makes the background image stay fixed when scrolling */
