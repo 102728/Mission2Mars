@@ -22,7 +22,7 @@ body {
     background-color: rgb(97, 97, 97);
     margin: 54px;
     border: 6px;
-    border-color: rgb(255, 234, 131);
+    border-color: rgb(12, 103, 135);
     border-style: solid;
 }
 
@@ -37,6 +37,6 @@ p{
     font-size: 40px;
     font-weight: 600;
     text-align: center;
-    color: rgb(255, 234, 131);
+    color: rgb(0, 128, 174);
 }
 
