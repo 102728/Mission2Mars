@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack-A-Mole</title>
+    <link rel="stylesheet" href="./whack.css">
+    <script src="./whack.js" defer></script>
+</head>
+<body>
+    <div class="game-container" id="gameContainer">
+        <!-- 9 holes for the moles to pop up from -->
+        <div class="hole" data-id="1">
+            <div class="mole" id="mole1"></div>
+        </div>
+        <div class="hole" data-id="2">
+            <div class="mole" id="mole2"></div>
+        </div>
+        <div class="hole" data-id="3">
+            <div class="mole" id="mole3"></div>
+        </div>
+        <div class="hole" data-id="4">
+            <div class="mole" id="mole4"></div>
+        </div>
+        <div class="hole" data-id="5">
+            <div class="mole" id="mole5"></div>
+        </div>
+        <div class="hole" data-id="6">
+            <div class="mole" id="mole6"></div>
+        </div>
+        <div class="hole" data-id="7">
+            <div class="mole" id="mole7"></div>
+        </div>
+        <div class="hole" data-id="8">
+            <div class="mole" id="mole8"></div>
+        </div>
+        <div class="hole" data-id="9">
+            <div class="mole" id="mole9"></div>
+        </div>
+    </div>
+    <div class="score-board">
+        <span>Score: <span id="score">0</span></span>
+    </div>
+    <button class="start-btn" onclick="startGame()">Start Game</button>
+</body>
+</html>

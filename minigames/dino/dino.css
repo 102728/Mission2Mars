@@ -1,0 +1,36 @@
+body {
+    background-image: url('../media/backgroundgames.jpg');
+    background-size: cover; /* Ensure the image covers the entire screen */
+    background-position: center center; /* Center the image */
+    background-attachment: fixed; /* Optional: Makes the background image stay fixed when scrolling */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+canvas {
+    display: block;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    margin-top: 300px;
+}
+.game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+button{
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 200px;
+    height: 50px;
+    font-size: 20px;
+}

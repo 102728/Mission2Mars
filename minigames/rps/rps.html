@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steen Papier Schaar</title>
+    <link rel="stylesheet" href="./rps.css">
+    <script src="./rps.js"></script>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Rock, Paper, Scissors</h1>
+        <div class="button-container">
+            <button class="button" onclick="playGame('rock')">Rock</button>
+            <button class="button" onclick="playGame('paper')">Paper</button>
+            <button class="button" onclick="playGame('scissors')">Scissors</button>
+        </div>
+        <div class="result" id="result">
+            Choose Rock, Paper, or Scissors to start the game.
+        </div>
+        <div id="score" style="margin-top: 20px;">
+            <strong>Score:</strong> Player: <span id="playerScore">0</span> | CPU: <span id="cpuScore">0</span>
+        </div>
+    </div>
+</body>
+</html>
