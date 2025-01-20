@@ -34,3 +34,10 @@ button{
     height: 50px;
     font-size: 20px;
 }
+
+#pijlterug{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    width: 120px;
+}

@@ -38,3 +38,10 @@ body {
     font-size: 24px;
     margin-top: 20px;
 }
+
+#pijlterug{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    width: 120px;
+}

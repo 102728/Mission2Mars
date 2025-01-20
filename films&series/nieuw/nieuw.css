@@ -42,3 +42,9 @@ p{
     text-align: center;
     color: rgb(0, 128, 174);
 }
+#pijlterug{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    width: 120px;
+}
