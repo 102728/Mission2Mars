@@ -5,3 +5,11 @@ body {
     background-attachment: fixed; /* Optional: Makes the background image stay fixed when scrolling */
     background-repeat: no-repeat; /* Prevent the image from repeating */
 }
+img{
+    width: 20%;
+    margin: 5%;
+}
+#wrapper{
+    margin-top: 10%;
+    text-align: center;
+}
