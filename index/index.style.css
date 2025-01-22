@@ -1,7 +1,7 @@
 
 
 #menu{
-    position: relative;
+    position: absolute;
     border-style: solid;
     border-color: black;
     border-width: 5px;
@@ -9,39 +9,49 @@
     background-color: lightgray;
     border-radius: 35px;
     text-align: center;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
+    width: 1300px;
 }
 /* h1{
     text-align: center;
-} */
- #box1, #box3{
-    position: relative;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    width: 500px;
-    border: 1px solid black;
- }
-
-.box{
+}*/
+#box1, #box3{
+    width: 505px;
+}
+#box3{
     position: absolute;
+    left: 60%;
+    top: 30px;
+}
+#box2{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 43%;
+    top: 18px;
+}
+.box{
+
     width: 30px;
     height: 30px;
     font-weight:bold;
     border: 2px solid black;
 }
+p{
+    display: inline-block;
+    width: 250px;
+}
 a{
+    position: absolute;
     text-decoration: none;
 
 }
+
 #b1{
 
     background-color: red;
 }
 #b2{
-    color: orange;
+
     background-color: orange;
 }
 #b3{
@@ -49,37 +59,35 @@ a{
     background-color: darkmagenta;
 }
 #b4{
-    color: palevioletred;
+
     background-color: palevioletred;
 }
 #b5{
-    color:green;
+
     background-color:green;
 }
 #b6{
-    color:aqua;
+
     background-color: aqua;
 }
 #b7{
-    color: blue;
+
     background-color: blue;
 }
 #b8{
 
-    color: yellow;
     background-color: yellow;
 }
 #b9{
 
-    color: yellowgreen;
     background-color: yellowgreen;
 }
 #b10{
-    color:magenta;
+
     background-color: magenta
 }
 #b11{
-    color: red;
+
     background-color: red;
 }
 
