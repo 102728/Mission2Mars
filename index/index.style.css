@@ -36,11 +36,11 @@
     font-weight:bold;
     border: 2px solid black;
 }
-p{
+.psoort{
     display: inline-block;
     width: 250px;
 }
-a{
+.links{
     position: absolute;
     text-decoration: none;
 
