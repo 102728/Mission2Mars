@@ -33,7 +33,7 @@ body {
     margin: 14px;
 }
 
-p{
+.titel{
     font-size: 40px;
     font-weight: 600;
     text-align: center;
@@ -43,7 +43,7 @@ p{
 
 
 #menu{
-    position: absolute;
+    position: fixed;
     border-style: solid;
     border-color: black;
     border-width: 5px;
@@ -52,10 +52,10 @@ p{
     border-radius: 35px;
     text-align: center;
     width: 1300px;
+    left: 15%;
+    top: 870px;
 }
-/* h1{
-    text-align: center;
-}*/
+
 #box1, #box3{
     width: 505px;
 }

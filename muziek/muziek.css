@@ -33,7 +33,7 @@ body {
     margin: 14px;
 }
 
-p{
+.titel{
     font-size: 40px;
     font-weight: 600;
     text-align: center;
@@ -52,10 +52,9 @@ p{
     border-radius: 35px;
     text-align: center;
     width: 1300px;
+    top: 880px;
+    left: 15%;
 }
-/* h1{
-    text-align: center;
-}*/
 #box1, #box3{
     width: 505px;
 }
