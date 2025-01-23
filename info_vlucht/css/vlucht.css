@@ -5,3 +5,124 @@ body {
     background-attachment: fixed; /* Optional: Makes the background image stay fixed when scrolling */
     background-repeat: no-repeat; /* Prevent the image from repeating */
 }
+#mini{
+    position: absolute;
+    width: 400px;
+    background-color: seagreen;
+    border: 3px solid white;
+    text-align: center;
+    top: 20%;
+    left: 75%;
+}
+h1{
+    width: 100%;
+    background-color: seagreen;
+    border: 3px solid white;
+    text-align: center;
+    height: 80px;
+}
+#gif{
+    width: 400px;
+    position: relative;
+    left: 35%;
+    top: 200px;
+}
+
+#marsbase{
+    position: absolute;
+    width: 400px;
+    left: 40px;
+    top: 55%;
+    border: 3px solid white;
+}
+
+#menu{
+    position: fixed;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    padding: 30px;
+    background-color: lightgray;
+    border-radius: 35px;
+    text-align: center;
+    width: 1300px;
+    left: 15%;
+    top: 870px;
+}
+
+#box1, #box3{
+    width: 505px;
+}
+#box3{
+    position: absolute;
+    left: 60%;
+    top: 30px;
+}
+#box2{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 43%;
+    top: 18px;
+}
+.box{
+
+    width: 30px;
+    height: 30px;
+    font-weight:bold;
+    border: 2px solid black;
+}
+.psoort{
+    display: inline-block;
+    width: 250px;
+    color: black;
+}
+.links{
+    position: absolute;
+    text-decoration: none;
+
+}
+#b1{
+
+    background-color: red;
+}
+#b2{
+
+    background-color: orange;
+}
+#b3{
+
+    background-color: darkmagenta;
+}
+#b4{
+
+    background-color: palevioletred;
+}
+#b5{
+
+    background-color:green;
+}
+#b6{
+
+    background-color: aqua;
+}
+#b7{
+
+    background-color: blue;
+}
+#b8{
+
+    background-color: yellow;
+}
+#b9{
+
+    background-color: yellowgreen;
+}
+#b10{
+
+    background-color: magenta
+}
+#b11{
+
+    background-color: red;
+}

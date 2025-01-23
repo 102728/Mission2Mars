@@ -1,15 +1,37 @@
-#background{
-    position:fixed;
-    top: 0;
-    left:0;
-    width: 100%;
-    height:100%;
-    z-index: -1;
-    object-fit: cover;
-
+body {
+    background-image: url('../images/achtergrond.jpg');
+    background-size: cover; /* Ensure the image covers the entire screen */
+    background-position: center center; /* Center the image */
+    background-attachment: fixed; /* Optional: Makes the background image stay fixed when scrolling */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
 }
+.boxen{
+    position: relative;
+    width: 600px;
+    background-color: lightslategray;
+    text-align: center;
+    height: 700px;
+    border: 3px solid white;
+    left: 20%;
+}
+.fitfoto{
+    width: 400px;
+}
+#grid_cont{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#head{
+    width: 100%;
+    background-color: lightslategray;
+    height: 70px;
+    text-align: center;
+    border: 3px solid white;
+}
+
 #menu{
-    position: absolute;
+    position: fixed;
     border-style: solid;
     border-color: black;
     border-width: 5px;
@@ -19,7 +41,9 @@
     text-align: center;
     width: 1300px;
     left: 15%;
+    top: 870px;
 }
+
 #box1, #box3{
     width: 505px;
 }
@@ -52,13 +76,6 @@
     text-decoration: none;
 
 }
-#text{
-    position: relative;
-    width: 600px;
-    left: 10%;
-    background-color: rgba(211, 211, 211, 0.562);
-}
-
 #b1{
 
     background-color: red;
@@ -103,5 +120,3 @@
 
     background-color: red;
 }
-
-
